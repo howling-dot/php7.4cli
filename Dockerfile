@@ -1,2 +1,5 @@
 FROM php:7.4-cli
-CMD [ "php", $SCRIPT ]
+
+COPY start.sh /home/start.sh
+
+ENTRYPOINT ["/home/start.sh"]
