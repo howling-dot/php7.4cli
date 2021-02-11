@@ -1,2 +1,2 @@
 #!/bin/sh
-php $SCRIPT
+php -f $SCRIPT
